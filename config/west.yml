@@ -64,7 +64,7 @@ manifest:
           - tinycrypt
 
       #ZMK Eyelash Corne
-    - name: corneish_zen
+    - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
       revision: main
     - name: zmk
