@@ -12,7 +12,14 @@
 #     shield: reviung41
 #
 ---
+
+
+
+
+
 include:
+  - board: corneish_zen_v2_left
+  - board: corneish_zen_v2_right
   - board: corneish_zen_v2_left
     shield: nice_view
     #snippet: zmk-usb-logging    # Uncomment to log over USB.
