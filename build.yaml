@@ -13,8 +13,18 @@
 #
 ---
 include:
-  - board: planck_rev6
   - board: corneish_zen_v2_left
+    shield: nice_view
+    #snippet: zmk-usb-logging    # Uncomment to log over USB.
   - board: corneish_zen_v2_right
-  - board: glove80_lh
-  - board: glove80_rh
+    shield: nice_view
+    #snippet: zmk-usb-logging
+  - board: corneish_zen_v2_left
+    shield: nice_view
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
+    artifact-name: corneish_zen_v2_STUDIO_left
+  - board: corneish_zen_v2_left
+    shield: settings_reset
+    #snippet: zmk-usb-logging
+ 
