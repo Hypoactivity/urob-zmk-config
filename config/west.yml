@@ -63,5 +63,15 @@ manifest:
           - lvgl
           - tinycrypt
 
+      #ZMK Eyelash Corne
+    - name: corneish_zen
+      url: https://github.com/a741725193/zmk-new_corne
+      revision: main
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+
+
   self:
     path: config
